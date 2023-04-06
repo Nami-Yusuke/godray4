@@ -26,14 +26,14 @@
   animation: ray 6s ease-in-out 5s infinite;
 }
 .p-ray__inner:nth-child(2) {
-  transform: translate(10%) scaleX(1.6);
+  transform: translate(7%) scaleX(1.2);
   -webkit-animation: ray 5s ease-in-out 2s infinite;
   animation: ray 5s ease-in-out 5.4s infinite;
   mix-blend-mode: overlay;
 }
 .p-ray__inner:nth-child(3) {
-  -webkit-transform: translate(-4%) scaleX(1.6);
-  transform: translate(-4%) scaleX(1.1);
+  -webkit-transform: translate(-7%) scaleX(1.8);
+  transform: translate(-7%) scaleX(1.1);
   -webkit-animation: ray 5s ease-in-out 4s infinite;
   animation: ray 5s ease-in-out 5.8s infinite;
   mix-blend-mode: overlay;
@@ -7650,7 +7650,7 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
   height: 100%;
   transition: 2s;
   transition-delay: 5.5s;
-  opacity: 0.5;
+  opacity: 0.4;
   mix-blend-mode: plus-lighter;
 }
 
@@ -7675,14 +7675,14 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
 
 .p-ray__inner:nth-child(2) {
   -webkit-animation: ray 5s ease-in-out 1s infinite;
-  transform: translate(5%) scaleX(1.4);
+  transform: translate(7%) scaleX(1.2);
   animation: ray 5s ease-in-out 2s infinite;
   /* mix-blend-mode: overlay; */
 }
 
 .p-ray__inner:nth-child(3) {
   -webkit-animation: ray 5s ease-in-out 2s infinite;
-  transform: translate(5%) scaleX(1.1);
+  transform: translate(-7%) scaleX(1.1);
   animation: ray 5s ease-in-out 4s infinite;
 }
 
@@ -7691,7 +7691,7 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
     opacity: 0;
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.4;
   }
   100% {
     opacity: 0;

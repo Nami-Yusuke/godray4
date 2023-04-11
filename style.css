@@ -9,9 +9,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.6;
+  opacity: 0.4;
 }
-/* .p-ray__inner {
+.p-ray__inner {
   position: absolute;
   top: 0;
   right: 0;
@@ -19,9 +19,9 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-image: url("../img/ray/gleam_1.png");
+  background-image: url("../img/A_01.png");
   background-size: cover;
-} */
+}
 .p-ray__inner:nth-child(1) {
   animation: ray 6s ease-in-out 5s infinite;
 }
@@ -7650,7 +7650,7 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
   height: 100%;
   transition: 2s;
   transition-delay: 5.5s;
-  opacity: 0.4;
+  opacity: .4;
   mix-blend-mode: plus-lighter;
 }
 
@@ -7662,9 +7662,12 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
   height: 100%;
   opacity: 0;
   /* // mix-blend-mode: saturation; */
-  background-image: url("../img/gleam_01.png");
+/
   /* // filter: saturate(200%); */
   background-size: cover;
+}
+  .p-ray__inner {
+  background-image: url("./img/D_hanten.png");
 }
 
 .p-ray__inner:nth-child(1) {
@@ -7675,14 +7678,14 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
 
 .p-ray__inner:nth-child(2) {
   -webkit-animation: ray 5s ease-in-out 1s infinite;
-  transform: translate(7%) scaleX(1.2);
+  transform: translate(5%) scaleX(1.2);
   animation: ray 5s ease-in-out 2s infinite;
   /* mix-blend-mode: overlay; */
 }
 
 .p-ray__inner:nth-child(3) {
   -webkit-animation: ray 5s ease-in-out 2s infinite;
-  transform: translate(-7%) scaleX(1.1);
+  transform: translate(-5%) scaleX(1.4);
   animation: ray 5s ease-in-out 4s infinite;
 }
 
@@ -7691,7 +7694,7 @@ input[type=checkbox]:checked + .wpcf7-list-item-label:before {
     opacity: 0;
   }
   50% {
-    opacity: 0.4;
+    opacity: 0.3;
   }
   100% {
     opacity: 0;
